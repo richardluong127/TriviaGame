@@ -30,3 +30,7 @@ A.	Flush
 B.	Blackjack
 C.	Two pair
 D.	Three of a Kind
+
+Press start to start the game.  Button.
+    Title does not move.
+    
