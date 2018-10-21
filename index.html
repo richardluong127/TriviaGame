@@ -1,79 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="assets/javascript/app.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="assets/javascript/app.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
+
 <body>
         <div class="container">
                 <div class="jumbotron">
-                  <h1>Do U Know? Volume 1</h1>      
-                  <p>You are not prepared.</p>
-                </div> 
-              </div>
-
-    <h1 id = "title"></h1>
-
-    <div id="buttons">
-        <button id="start"><h2>Start</h2></button>
-    </div>
-    <div id = "timer"></div>
-
-    <div id = "question"></div>
-    <!-- <div class="container">
-            <h2>Carousel Example</h2>  
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-              
-              <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-              </ol>
-          
-              
-              <div class="carousel-inner">
-                <div class="item active">
-                        <div id="buttons">
-                                <button id="start"><h2>Start</h2></button>
-                            </div>
-                </div> -->
-          
-                <div class="item">
-                        <div class="question">Quothe the Raven, “________.”</div>
-                        <p id="a1">A.	Forevermore</p>
-                        <p id="b1">B.	Nevermore</p>
-                        <p id="c1">C.	Never ever</p>
-                        <p id="d1">D.	Forever and a Day</p>
+                        <h1 class="text-center">It's... Trivia Time! Volume 1</h1>
+                        <p class="text-center">Give it your best shot!</p>
                 </div>
-              
-                <div class="item">
-                        <div class="question">Kobe Bryant’s highest scoring performance in an NBA game:</div>
-                        <p id="a2">A.	81 points</p>
-                        <p id="b2">B.	99 points</p>
-                        <p id="c2">C.	62 points</p>
-                        <p id="d2">D.	76 points</p>
+        </div>
+        <div class="container">
+                <div class="jumbotron">
+                        <h2 id="timer" class="text-center"> </h2>
                 </div>
-
-                <div class="item">
-                        <div class="question">Which is a Disney character?</div>
-                        <p id="a3">A.	Darkwing Duck</p>
-                        <p id="b3">B.	Mike Meyers</p>
-                        <p id="c3">C.	Spongebob Squarepants</p>
-                        <p id="d3">D.	Jack Skellington</p>
+        </div>
+        <div class="container">
+                <div class="jumbotron text-center" id="jumbostart">
+                        <button type="button" class="btn-lg btn-primary" id="start">
+                                <h2>Start</h2>
+                        </button>
                 </div>
-              </div>
-    <div id = "answers">
-        <div id = "answera"></div>
-        <div id = "answerb"></div>
-        <div id = "answerc"></div>
-        <div id = "answerd"></div>
-    </div>
+        </div>
+        <div class="container">
+                <div class="jumbotron">
+                        <h2 class="question">Quothe the Raven, “________.”</h2>
+                        <p id="a1">A. Forevermore</p>
+                        <p id="b1">B. Nevermore</p>
+                        <p id="c1">C. Never ever</p>
+                        <p id="d1">D. Forever and a Day</p>
+                </div>
+        </div>
+        <div class="container">
+                <div class="jumbotron">
+                        <h2 class="question">Which is a Disney character?</h2>
+                        <p id="a2">A. Darkwing Duck</p>
+                        <p id="b2">B. Mike Meyers</p>
+                        <p id="c2">C. Spongebob Squarepants</p>
+                        <p id="d2">D. Jack Skellington</p>
+                </div>
+        </div>
+        <div class="container">
+                <div class="jumbotron">
+                        <h2 class="question">In poker, what beats a straight?</h2>
+                        <p id="a3">A. Flush</p>
+                        <p id="b3">B. Blackjack</p>
+                        <p id="c3">C. Two pair</p>
+                        <p id="d3">D. Three of a Kind</p>
+                </div>
+        </div>
+        </div>
+        </div>
 
 
 </body>
+
 </html>
